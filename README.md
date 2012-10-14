@@ -20,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1) Add `jquery_elastic` to your Application.js:
+
+    //= require 'jquery'
+    //= require 'jquery_ujs'
+    ...
+    //= require 'jquery_elastic'
+
+2) Add the following script to your javascript code:
+
+    $("textarea").elastic()
+
+This will make all Textareas to be elastic(autogrow).
+
+See detailed doc here: http://www.unwrongest.com/projects/elastic
 
 ## Contributing
 
