@@ -12,5 +12,5 @@ Gem::Specification.new do |gem|
   gem.name          = "jquery-elastic-rails"
   gem.require_paths = ["lib"]
   gem.version       = Jquery::Elastic::Rails::VERSION
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", "> 3.1"
 end
